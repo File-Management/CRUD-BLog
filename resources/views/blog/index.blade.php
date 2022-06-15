@@ -18,7 +18,7 @@
             <thead>
                 <tr w3-light-grey>
                     <th>Noo</th>
-                    <th>Judul</th>
+                    <th>Jud</th>
                     <th>Deskripsi</th>
                     <th>Dibuat Oleh</th>
                     <th>Penulis</th>
