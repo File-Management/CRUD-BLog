@@ -17,7 +17,7 @@
         <table id="myTable" class="table table-striped table-bordered">
             <thead>
                 <tr w3-light-grey>
-                    <th>No</th>
+                    <th>Noo</th>
                     <th>Judul</th>
                     <th>Deskripsi</th>
                     <th>Dibuat Oleh</th>
