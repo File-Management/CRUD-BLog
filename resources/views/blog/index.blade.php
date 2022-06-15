@@ -20,7 +20,7 @@
                     <th>Noo</th>
                     <th>Jud</th>
                     <th>Deskripsi</th>
-                    <th>Dibuat Oleh</th>
+                    <th>Dibuat </th>
                     <th>Penulis</th>
                     <th>Gambar</th>
                     <th width="200px" class="text-center">Action</th>
