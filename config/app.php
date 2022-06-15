@@ -174,7 +174,7 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-        //SPBE\NobleUI\Providers\SPBENobleServiceProvider::class,
+        SPBE\NobleUI\Providers\SPBENobleServiceProvider::class,
 
     ],
 
