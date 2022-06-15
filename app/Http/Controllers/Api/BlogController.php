@@ -24,6 +24,12 @@ class BlogController extends Controller
         return $this->responSuccess(200, 'Success', $blogs);
     }
 
+    public function show($id)
+    {
+        $blogs = $this->BlogService->show($id);
+        return $this->responSuccess(200, 'Success', $blogs);
+    }
+
     public function create(Request $request)
     {
         $user = User::where('api_token')->first();

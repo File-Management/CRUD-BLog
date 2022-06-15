@@ -27,6 +27,7 @@ Route::post('/login', [AuthController::class, 'login']);
 //Protected
 Route::group(['middleware' => ['auth:sanctum']], function () {
     Route::get('/blog/get_data', [BlogController::class, 'getData']);
+    Route::get('/blog/{id}/show', [BlogController::class, 'show']);
     Route::post('/blog/create', [BlogController::class, 'create']);
     Route::delete('/blog/{id}/delete', [BlogController::class, 'delete']);
     Route::post('/logout', [AuthController::class, 'logout']);

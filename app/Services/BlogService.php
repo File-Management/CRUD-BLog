@@ -10,6 +10,12 @@ class BlogService
     {
         return Blog::with('createdAuthor', 'createdUser')->get();
     }
+
+    public function show($id)
+    {
+        $blogs = Blog::find($id);
+        return Blog::with('createdAuthor', 'createdUser')->get();
+    }	
     
     public function find($blog_id)
     {

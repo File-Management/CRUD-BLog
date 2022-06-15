@@ -16,7 +16,7 @@
         </div>
         <table id="myTable" class="table table-striped table-bordered">
             <thead>
-                <tr>
+                <tr w3-light-grey>
                     <th>No</th>
                     <th>Judul</th>
                     <th>Deskripsi</th>
